@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/ico.svg" type="image/svg">
+    <script src="main.js" defer></script>
+    <title>Jikan</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">時間</h1>
+        <div class="tokei">
+            <img src="./img/tokei.svg" alt="a clock" class="clock">
+            <img src="./img/hourHand.svg" alt="" class="hand hour">
+            <img src="./img/minuteHand.svg" alt="" class="minute hand">
+        </div>
+        <div>
+            <div class="slidecontainer">
+                <!-- <label for="hours">Hour</label> -->
+                <input type="range" min="0" max="12" value="0" class="slider hourSlider">
+                <span class="countHour">10</span>
+            </div>
+            <div class="slidecontainer">
+                <!-- <label for="minutes">Minute</label> -->
+                <input type="range" min="0" max="60" value="0" class="slider minuteSlider">
+                <span class="countMinute">45</span>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="radio" class="am" name="meridium" value="am" required checked>
+                <label for="am">AM</label>
+                <input type="radio" class="pm" name="meridium" value="pm" required>
+                <label for="pm">PM</label>
+                <br>
+            </div>
+            <button href="#" type="submit" class="btn">今何時ですか。</button>
+        </div>
+
+    </div>
+    <h3 class="render"></h3>
+    <a href="https://github.com/atesoniero" class="link">
+        <i class="fab fa-github"></i>
+    </a>
+
+</body>
+
+</html>
+<!-- 午後五時三十七分です。 -->
