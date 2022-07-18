@@ -63,9 +63,8 @@ btn.addEventListener("click", () => {
 
   let text = `${meridium}` + `${outputHour}` + `${outputMinute}` + `です。`;
 
-  render.innerHTML = text
+  render.innerHTML = text;
 });
-
 
 // Helper
 
@@ -92,4 +91,3 @@ function kanji(n) {
   }
   return kanjiDictionary[n[0] + "0"] + kanjiDictionary[n[1]];
 }
-
