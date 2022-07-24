@@ -82,7 +82,7 @@ select {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,6 +90,7 @@ select {
 }
 
 .title {
+  /* margin-top: 0; */
   font-size: 3rem;
 }
 
@@ -132,7 +133,7 @@ select {
 }
 
 .btn {
-  font-size: .75rem;
+  /* font-size: 1rem; */
   font-weight: 700;
   margin: 1rem 0;
   background-color: hsl(215, 36%, 47%);
@@ -154,7 +155,7 @@ select {
 }
 
 .render {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
