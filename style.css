@@ -94,15 +94,13 @@ select {
 }
 
 .tokei {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   position: relative;
-  margin-bottom: 3rem;
 }
 
 .hand {
   position: absolute;
   transform-origin: 50% 71%;
-
 }
 
 .minute {
@@ -120,10 +118,11 @@ select {
   left: 48.5%;
   z-index: 10;
   transform: rotate(0deg);
-  
+ 
 }
 
 .slidecontainer {
+  margin-top: 0px;
   display: flex;
 }
 
@@ -133,6 +132,7 @@ select {
 }
 
 .btn {
+  font-size: .75rem;
   font-weight: 700;
   margin: 1rem 0;
   background-color: hsl(215, 36%, 47%);
@@ -154,21 +154,25 @@ select {
 }
 
 .render {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
-.fab {
-  font-size: 1.5rem;
-  color: hsl(278, 100%, 95%);
-  position: absolute;
-  bottom: .5%;
-  left: 50%;
-  overflow: hidden;
+.link {
+  margin-top: auto;
 }
 
 .link:focus,
 .link:hover {
   cursor: pointer;
 }
+
+.fab {
+  font-size: 1.5rem;
+  color: hsl(278, 100%, 95%);
+  overflow: hidden;
+}
+
+
+
 
